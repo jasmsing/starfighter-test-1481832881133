@@ -1,3 +1,7 @@
+declared-services:
+  BluePic-Cloudant:
+    label: cloudantNoSQLDB
+    plan: Lite
 applications:
 - host: starfighter-${random-word}
   disk: 512M
